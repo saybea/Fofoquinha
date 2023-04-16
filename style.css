@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#game{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#personagem{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+}
+
+.animar{
+    animation: personagem 500ms infinite;
+}
+
+@keyframes personagem{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+#quadrado{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 150px;
+    left: 980px;
+    animation: quadrado 1s infinite linear;
+}
+
+@keyframes quadrado{
+    0%{left: 980px;}
+    100%{left: -10px;}
+}
+
+body{
+    background-image: url(/);
+}
+
+ 
+.button-container {
+    justify-content: center;
+    color: #aaa;
+    margin-top: 20px;
+  }
+  
+  .button-container a {
+    justify-content: center;
+    color: #aaa;
+    display: inline-block;
+    margin: 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .button-container a:hover {
+    justify-content: center;
+    color: #aaa;
+  }
+  
+  
+  button {
+    justify-content: center;
+    background-color: #1900ff;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2718f1;
+    justify-content: center;
+  }
+  
+  div {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 20px;
+  }
