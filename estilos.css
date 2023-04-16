@@ -1,0 +1,182 @@
+/* Estilos globais */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #25013a;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #000000;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: inline-block;
+  margin: 10px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+nav {
+  display: inline-block;
+  margin: 55px;
+  float:right;
+  font-size: 17px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav li a:hover {
+  background-color: #ffdede;
+}
+
+/* Estilos do banner */
+.banner {
+  background-image: url('saltoo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff0095;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+}
+
+.banner h1 {
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Estilos do conteúdo principal */
+main {
+  padding: 100px;
+  margin-top: 30px;
+  background-image: url('rosinha.jpg');
+  font-size: 20px;
+
+}
+
+.featured {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 40px;
+  
+}
+
+.featured-item { 
+  background-color: #ffe6e6; 
+  box-shadow: 0 2px 4px rgba(0,0,0,.1); 
+  padding: 20px;
+  
+  
+
+  
+
+  
+} 
+
+.featured-item h2 {
+  background-color: #ffb9d4; 
+  margin-top: 100;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-image: url('touquinhaa.jpg');
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.social a {
+  display: inline-block;
+  margin: 10px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.social a:hover {
+  color: #aaa;
+}
+
+
+button {
+  background-color: #ff518b;
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff4483;
+}
+
+div {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 20px;
+
+  
