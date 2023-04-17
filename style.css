@@ -3,12 +3,13 @@
     padding: 0;
 }
 
-#game{
+#game {
     width: 1000px;
     height: 200px;
     border: 1px solid black;
     margin: 0 auto;
-}
+  }
+  
 
 #personagem{
     width: 50px;
@@ -66,24 +67,25 @@ body{
     color: #aaa;
   }
   
-  
   button {
     justify-content: center;
     background-color: #1900ff;
     display: block;
-    margin-bottom: 10px;
+    margin: 20px auto 10px auto; /* adiciona uma margem superior de 20px */
     color: rgb(255, 255, 255);
-    padding: 10px 20px;
+    padding: 8px 16px; /* diminui o tamanho do padding para deixar o botão menor */
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px; /* diminui o tamanho da fonte para deixar o texto menor */
     cursor: pointer;
   }
   
+  /* adiciona um seletor para aplicar a pseudo-classe hover ao botão */
   button:hover {
     background-color: #2718f1;
     justify-content: center;
   }
+  
   
   div {
     display: inline-block;
