@@ -63,7 +63,6 @@ nav ul {
   padding: 0;
   list-style: none;
 }
-
 nav li {
   display: inline-block;
   margin-left: 20px;
@@ -179,4 +178,51 @@ div {
   justify-content: center;
   margin-top: 20px;
 
+  
+  
+  
+    
+
+
+  
+}
+
+.featured-item {
+  display: grid;
+  justify-content: center;
+  margin-top: 10px;
+
+} 
+
+center{
+  background-image: url('caprichoum.jpg');
+    
+  }
+
+
+  .featured {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .item {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .item h2 {
+    font-size: 2.2rem;
+    margin-top: 5;
+  }
+  
+  .item p {
+    margin-bottom: 0;
+  }
+  
+  .titulo {
+    font-size: 10px; 
+    font-weight:normal; 
+  }
   
