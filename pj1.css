@@ -230,13 +230,7 @@
     margin-right: 10px;
   }
   
-  /* Estilizando as mensagens de erro */
-  span.error {
-    display: block;
-    color: #f00;
-    margin-top: 5px;
-  }
-  
+ 
   /* Estilizando o formulário */
 
   form { 
